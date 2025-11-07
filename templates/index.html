@@ -1,0 +1,62 @@
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moje stránka</title>
+ <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+<header>
+<div class="logo">FitLife</div>
+<nav>
+<a href="#home">Domů</a>
+<a href="#sluzby">Služby</a>
+<a href="#kontakt">Kontakt</a>
+<a href="#onas">O nás</a>
+<a href="{{url_for('prihlaseni')}}">Přihlášení</a>
+</nav>
+</header>
+
+
+<section class="hero" id="home">
+<h1>Vítejte na stránce <strong>FitLife</strong></h1>
+<p>Pomůžeme ti s tréninkem, výživou i motivací. Sleduj svůj pokrok, plánuj jídelníčky a dosahuj svých cílů s námi.</p>
+<a href="#sluzby" class="btn">Zjistit více</a>
+</section>
+
+
+<section class="features" id="sluzby">
+<div class="feature">
+<h3>Tréninkové plány</h3>
+<p>Připrav si vlastní plán nebo si vyber z našich osvědčených tréninkových programů.</p>
+</div>
+<div class="feature">
+<h3>Jídelníček na míru</h3>
+<p>Vyvážená strava pro zdravý životní styl. Sleduj kalorie i nutriční hodnoty jednoduše.</p>
+</div>
+<div class="feature">
+<h3>Sleduj pokrok</h3>
+<p>Motivuj se statistikami a grafy svého vývoje. Každý krok vpřed se počítá!</p>
+</div>
+</section>
+
+
+<footer>
+<div class="footer">
+
+<div class="row">
+<ul>
+<li><a href="#">Zásady ochrany osobních údajů</a></li>
+<li><a href="#">Obchodní podmínky</a></li>
+
+</ul>
+</div>
+
+<div class="row">
+Datel Copyright © 2025 - Všechna práva vyhrazena || Design od: Datel
+</div>
+</div>
+</footer>
+</body>
+</html>
+</html>
